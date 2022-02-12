@@ -1,10 +1,10 @@
 #Denis Shubin
 
-Location: Minsk, Belarus
-Phone: +375297500375
-E-mail: denis.shubin@gmail.com
-GitHub: https://github.com/Zouker
-LinkedIn: https://www.linkedin.com/in/denis-shubin/
+* Location: Minsk, Belarus
+* Phone: +375297500375
+* E-mail: denis.shubin@gmail.com
+* GitHub: https://github.com/Zouker
+* LinkedIn: https://www.linkedin.com/in/denis-shubin/
 
 ##About Myself:
 
