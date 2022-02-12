@@ -6,7 +6,7 @@
 * GitHub: https://github.com/Zouker
 * LinkedIn: https://www.linkedin.com/in/denis-shubin/
 
-##About Myself:
+## About Myself:
 
 I am a switcher. As a specialist with good experience in the field of international settlements, I decided to change the field of activity. I am currently studying web development. As in any business I strive to learn and learn new things in order to become a professional in a new field for me. Improvement, practice and work for the result are important for me.
 
