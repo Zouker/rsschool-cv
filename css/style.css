@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dad9de;
+}
+
+.general-container {
+    max-width: 1024px;
+    min-width: 600px;
+    min-height: 1200px;
+    margin: 0 auto;
+}
+
+.columns {
+    display: flex;
+    line-height: 1.5;
+    background-color: #fff;
+}
+
+.left-column {
+    width: 40%;
+    background-color: #dadfbd;
+    line-height: 2;
+}
+
+.left-column img {
+    border-radius: 50%;
+}
+
+header {
+    padding: 30px;
+    text-align: center;
+    background-color: #fff;
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: 10px;
+    margin: 10px;
+}
+
+header h1 span {
+    font-weight: 600;
+}
+
+header h2 {
+    letter-spacing: 1px;
+}
+
+main {
+    padding: 0 50px;
+}
+
+main img {
+    width: 25px;
+    height: 25px;
+}
+
+section {
+    padding-bottom: 20px;
+}
+
+main h3 {
+    width: 160px;
+    background-color: #48474c;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 10px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+main .contacts h3 {
+    transform: translateY(-50%);
+}
+
+.contacts li {
+    list-style-type: none;
+}
+
+.contacts li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.contacts li p img {
+    /* display: inline; */
+    vertical-align: middle;
+    margin: 5px;
+}
+
+.right-column {
+    width: 60%;
+    padding: 40px 40px 0 40px;
+}
+
+.right-column h3 {
+    border-bottom: 2px solid #000;
+    flex: 1;
+    vertical-align: middle;
+}
+
+.right-column img {
+    vertical-align: middle;
+}
+
+.aboutme,
+.education-subblock,
+.courses-subblock,
+.experience-subblock,
+.code-example-subblock {
+    display: flex;
+}
+
+.aboutme img,
+.education-subblock img,
+.courses-subblock img,
+.experience-subblock img,
+.code-example-subblock img {
+    margin-right: 15px;
+    width: 25px;
+    height: 25px;
+}
+
+.education,
+.courses {
+    line-height: 2;
+}
+
+.skills h3,
+.languages h3,
+.hobbies h3 {
+    margin-bottom: 20px;
+}
+
+.language {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.language-level {
+    margin-left: 100px;
+}
+
+.courses a {
+    text-decoration: none;
+    color: #000;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #afc477;
+    font-weight: 700;
+}
+
+footer a:hover {
+    filter: invert(0.5);
+}
+
+footer img {
+    height: 50px;
+}

@@ -1,1 +1,1 @@
-https://Zouker.github.io/rsschool-cv/cv
+https://Zouker.github.io/rsschool-cv/
