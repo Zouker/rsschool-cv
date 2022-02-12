@@ -27,6 +27,56 @@ body {
     line-height: 2;
 }
 
+header {
+    padding: 30px;
+    text-align: center;
+    background-color: #fff;
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: 10px;
+    margin: 10px;
+}
+
+header h1 span {
+    font-weight: 600;
+}
+
+header h2 {
+    letter-spacing: 1px;
+}
+
+main {
+    padding: 0 50px;
+}
+
+main img {
+    width: 25px;
+    height: 25px;
+}
+
+.contacts li {
+    list-style-type: none;
+}
+
+.contacts li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.contacts li p img {
+    vertical-align: middle;
+    margin: 5px;
+}
+
 .right-column {
     width: 60%;
     padding: 30px;
