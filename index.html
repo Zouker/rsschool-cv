@@ -21,30 +21,113 @@
                 <main>
                     <section class="contacts">
                         <h3>Contacts</h3>
+                        <ul>
+                            <li>
+                                <P><img src="icons/location.svg" alt="location" width="25px" height="25px">Minsk, Belarus</P>
+                            </li>
+                            <li>
+                                <a href="tel:+375297500375">
+                                    <p><img src="icons/phone.svg" alt="phone" width="25px" height="25px">+375 29 750 03 75</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto: denis.shubin@gmail.com">
+                                    <p><img src="icons/email.svg" alt="email" width="25px" height="25px">denis.shubin@gmail.com</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/Zouker" target="_blank">
+                                    <p><img src="icons/github.svg" alt="github" width="25px" height="25px">GitHub</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/denis-shubin/" target="_blank">
+                                    <p><img src="icons/linkedin.svg" alt="linkedin" width="25px" height="25px"> LinkedIn
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
                     </section>
                     <section class="skills">
                         <h3>Skills</h3>
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>JavaScript Basics</li>
+                            <li>Git, GitHub</li>
+                            <li>VS Code</li>
+                        </ul>
                     </section>
                     <section class="languages">
                         <h3>Languages</h3>
+                        <ul>
+                            <li>
+                                <p class="language">Russian</p>
+                                <p class="language-level">Native</p>
+                            </li>
+                            <li>
+                                <p class="language">English</p>
+                                <p class="language-level">A2</p>
+                            </li>
+                        </ul>
                     </section>
                 </main>
             </div>
             <aside class="right-column">
                 <section class="about-myself">
                     <h3>About Myself</h3>
+                    <p>I am a switcher. As a specialist with good experience in the field of international settlements, I decided to change the field of activity. I am currently studying web development. As in any business I strive to learn and learn new
+                        things in order to become a professional in a new field for me. Improvement, practice and work for the result are important for me.
+                    </p>
                 </section>
                 <section class="education">
                     <h3>Education</h3>
+                    <p>Belarusian State Economic University</p>
+                    <p>Institute IBA: Excel for Business</p>
                 </section>
                 <section class="courses">
                     <h3>Courses</h3>
+                    <a href="https://ru.code-basics.com/languages/html" target="_blank">
+                        <p>HTML5: https://ru.code-basics.com/languages/html</p>
+                    </a>
+                    <a href="https://ru.code-basics.com/languages/css" target="_blank">
+                        <p>CSS3: https://ru.code-basics.com/languages/css</p>
+                    </a>
+                    <a href="https://learn.javascript.ru/" target="_blank">
+                        <p>Manual of JavaScript: https://learn.javascript.ru/</p>
+                    </a>
                 </section>
                 <section class="experience">
                     <h3>Experience</h3>
+                    <p>Work related to international settlements and maintenance of correspondent accounts in such banks as OJSC BelVEB, BELROSBANK JSC, OJSC Moscow-Minsk Bank, JSC Development Bank of the Republic of Belarus.</p>
+                    <p>Nothing in IT yet.</p>
                 </section>
                 <section class="code-example">
                     <h3>Code example:</h3>
+                    <p>KATA from CODEWARS:</p>
+                    <p>Create a function finalGrade, which calculates the final grade of a student depending on two parameters: a grade for the exam and a number of completed projects.</p>
+                    <p>This function should take two arguments: exam - grade for exam (from 0 to 100); projects - number of completed projects (from 0 and above);</p>
+                    <p>This function should return a number (final grade). There are four types of final grades:</p>
+                    <p>100, if a grade for the exam is more than 90 or if a number of completed projects more than 10.</p>
+                    <p>90, if a grade for the exam is more than 75 and if a number of completed projects is minimum 5.</p>
+                    <p>75, if a grade for the exam is more than 50 and if a number of completed projects is minimum 2.</p>
+                    <p>0, in other cases</p>
+                    <pre>
+                        <code>
+function finalGrade(exam, projects) {
+    if (exam > 90 || projects > 10) {
+        return 100;
+    } else if (exam > 75 && projects >= 5) {
+        return 90;
+    } else if (exam > 50 && projects >= 2) {
+        return 75;
+    } else {
+        return 0;
+    }
+}
+finalGrade()
+                        </code>
+                    </pre>
                 </section>
             </aside>
         </div>
