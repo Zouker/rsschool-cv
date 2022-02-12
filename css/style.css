@@ -12,7 +12,7 @@ body {
 .general-container {
     max-width: 1024px;
     min-width: 600px;
-    max-height: 1300px;
+    min-height: 1200px;
     margin: 0 auto;
 }
 
@@ -97,14 +97,14 @@ main .contacts h3 {
 }
 
 .contacts li p img {
-    display: inline;
+    /* display: inline; */
     vertical-align: middle;
     margin: 5px;
 }
 
 .right-column {
     width: 60%;
-    padding: 30px;
+    padding: 40px 40px 0 40px;
 }
 
 .right-column h3 {
@@ -159,4 +159,20 @@ main .contacts h3 {
 .courses a {
     text-decoration: none;
     color: #000;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #afc477;
+    font-weight: 700;
+}
+
+footer a:hover {
+    filter: invert(0.5);
+}
+
+footer img {
+    height: 50px;
 }
