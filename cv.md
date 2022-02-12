@@ -1,4 +1,4 @@
-#Denis Shubin
+# Denis Shubin
 
 * Location: Minsk, Belarus
 * Phone: +375297500375
@@ -10,7 +10,7 @@
 
 I am a switcher. As a specialist with good experience in the field of international settlements, I decided to change the field of activity. I am currently studying web development. As in any business I strive to learn and learn new things in order to become a professional in a new field for me. Improvement, practice and work for the result are important for me.
 
-##Skills and Proficiency:
+## Skills and Proficiency:
 
 * HTML5
 * CSS3
@@ -18,7 +18,7 @@ I am a switcher. As a specialist with good experience in the field of internatio
 * Git, GitHub
 * VS Code
 
-##Code Examples:
+## Code Examples:
 
 ```
 function greet() {
@@ -41,23 +41,23 @@ function finalGrade(exam, projects) {
 finalGrade()
 ```
 
-##Experience:
+## Experience:
 
 Work related to international settlements and maintenance of correspondent accounts in such banks as OJSC BelVEB, BELROSBANK JSC, OJSC Moscow-Minsk Bank, JSC Development Bank of the Republic of Belarus.
 
 Nothing in IT yet.
 
-##Education:
+## Education:
 
 Belarusian State Economic University
 
 Institute IBA: Excel for Business
 
-##Courses
+## Courses
 * HTML5: [https://ru.code-basics.com/languages/html](https://ru.code-basics.com/languages/html)
 * CSS3: [https://ru.code-basics.com/languages/css](https://ru.code-basics.com/languages/css)
 * Manual of JavaScript [https://learn.javascript.ru/](https://learn.javascript.ru/)
 
-##English:
+## English:
 
 A2
